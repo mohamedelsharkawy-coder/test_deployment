@@ -35,3 +35,4 @@ if st.button(label='Submit'):
     pca_result = feature_extraction(processed_text)
     cluster_num, cluster_name = predict(pca_result)
     st.write(f"This biography belongs to **Cluster {cluster_num}: {cluster_name}**.")
+    st.write(f"Welcome in ITI")
